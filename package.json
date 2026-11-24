@@ -1,0 +1,19 @@
+{
+  "name": "rosefarm-pos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RoseFarm POS: static front end + Netlify Function API + PostgreSQL (Neon)",
+  "type": "module",
+  "scripts": {
+    "gen-sql": "node scripts/gen-sql.mjs",
+    "test": "node scripts/test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.3",
+    "bcryptjs": "^2.4.3",
+    "pg": "^8.13.1"
+  }
+}
